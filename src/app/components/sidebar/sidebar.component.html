@@ -4,6 +4,7 @@
   </span>
 </a>
 
+<div class="ru-sidenav-warp">
 <mat-nav-list *ngFor="let item of menuList">
   <div mat-subheader *ngIf="item.title">{{ item.name }}</div>
   <a mat-list-item [routerLink]="item.link" *ngIf="!item.title">
@@ -11,3 +12,4 @@
     <div mat-line mat-line>{{item.name}}</div>
   </a>
 </mat-nav-list>
+</div>

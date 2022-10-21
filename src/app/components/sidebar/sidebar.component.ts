@@ -17,13 +17,18 @@ export class SidebarComponent implements OnInit {
 
   public menuList: MenuItem[] = [
     {
-      name: 'Pages',
+      name: 'Title',
       title: true,
     },
     {
-      name: 'Link to Component',
-      link: '/login',
-      icon: 'person'
+      name: 'Components',
+      link: '/',
+      icon: 'folder'
+    },
+    {
+      name: 'Components',
+      link: '/dashboard',
+      icon: 'folder'
     },
   ];
 

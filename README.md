@@ -1,27 +1,36 @@
-# ReunionAdminTemplate
+# Reunion Angular Admin Template
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.0.
+Angular 13 starter admin dashboard template. Includes Angular Material, Sidenav, Drawer, Header, Footer and Sidebar. Routing and admin modules are also setup.
 
-## Development server
+![Routes](screenshots/dashboard.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### 📥 Clone project
 
-## Code scaffolding
+Clone the project from github or download the .zip file and extract to your existing project.
+```bash
+$ git clone https://github.com/talentedaamer/reunion-admin-template.git
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 📦 Package Installation
 
-## Build
+Install packages.
+```bash
+$ npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 Running, Building, Testing the app
 
-## Running unit tests
+```bash
+# start
+$ npm run start
+# build
+$ npm run build
+# watch
+$ npm run watch
+# test
+$ npm run test
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### License
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project like Nest is [MIT licensed](LICENSE).
