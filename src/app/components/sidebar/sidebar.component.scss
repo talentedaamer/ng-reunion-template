@@ -1,0 +1,8 @@
+.ru-logo-wrap {
+  background: #03254e;
+  .ru-logo {
+    & > img {
+      height: 1rem;
+    }
+  }
+}

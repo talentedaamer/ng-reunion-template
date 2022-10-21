@@ -1,0 +1,13 @@
+.ru-footer-wrap {
+  background-color: #f2f2f5;
+  color: #74788d;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem;
+
+  & p {
+    margin: 0;
+  }
+}

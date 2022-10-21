@@ -1,0 +1,13 @@
+<mat-drawer-container class="ru-drawer-container" autosize>
+  <mat-drawer #sidenav class="ru-drawer-sidenav" mode="side" opened>
+    <app-sidebar></app-sidebar>
+  </mat-drawer>
+
+  <div class="ru-drawer-content">
+    <app-header [sidenav]="sidenav"></app-header>
+    <div class="ru-content-wrap">
+      <router-outlet></router-outlet>
+    </div>
+    <app-footer></app-footer>
+  </div>
+</mat-drawer-container>

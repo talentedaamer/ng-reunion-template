@@ -1,0 +1,23 @@
+<mat-toolbar>
+  <button
+    mat-icon-button
+    (click)="toggleDrawer()">
+    <mat-icon>{{ sidenav.opened ? 'menu_open' : 'menu' }}</mat-icon>
+  </button>
+
+<!--  <app-ru-search></app-ru-search>-->
+
+  <span class="ru-spacer"></span>
+
+  <button mat-icon-button [matMenuTriggerFor]="langMenu"><mat-icon>language</mat-icon></button>
+  <mat-menu #langMenu="matMenu" xPosition="before" overlayPanelClass="ru-shadow" panelClass="ru-shadow">
+    <button mat-menu-item>English</button>
+    <button mat-menu-item>German</button>
+  </mat-menu>
+
+  <button mat-icon-button><mat-icon>share</mat-icon></button>
+
+
+
+</mat-toolbar>
+

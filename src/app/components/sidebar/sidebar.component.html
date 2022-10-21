@@ -1,0 +1,13 @@
+<a href="/" class="ru-logo-wrap d-flex p-3">
+  <span class="ru-logo mx-auto">
+    <img class="float-start" src="./assets/images/logo.svg">
+  </span>
+</a>
+
+<mat-nav-list *ngFor="let item of menuList">
+  <div mat-subheader *ngIf="item.title">{{ item.name }}</div>
+  <a mat-list-item [routerLink]="item.link" *ngIf="!item.title">
+    <mat-icon mat-list-icon>{{item.icon}}</mat-icon>
+    <div mat-line mat-line>{{item.name}}</div>
+  </a>
+</mat-nav-list>
