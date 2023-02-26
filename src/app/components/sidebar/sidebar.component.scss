@@ -9,8 +9,15 @@
 
 .ru-sidenav-warp {
   .mat-nav-list {
-    a {
+    & a {
       height: 40px;
+
+      &.active {
+        background-color: rgba(3,37,78,0.1);
+      }
+    }
+    .mat-subheader {
+      margin-top: 1rem;
     }
   }
 }
