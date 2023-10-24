@@ -1,20 +1,21 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { MatSharedModule } from "../../shared/mat-shared.module";
 import { LayoutAdminRoutingModule } from './layout-admin-routing.module';
-import { DashboardComponent } from 'src/app/pages/dashboard/dashboard.component';
-import {MatSidenavModule} from "@angular/material/sidenav";
-import {SharedModule} from "../../shared/shared.module";
+
+// pages
+import { PageDashboardComponent } from 'src/app/pages/page-dashboard/page-dashboard.component';
+import { RuSharedModule } from 'src/app/shared/ru-shared.module';
 
 @NgModule({
   declarations: [
-    DashboardComponent,
+    PageDashboardComponent,
   ],
   imports: [
     CommonModule,
     LayoutAdminRoutingModule,
-    MatSidenavModule,
-    SharedModule,
+    MatSharedModule,
+    RuSharedModule,
   ]
 })
 export class LayoutAdminModule { }

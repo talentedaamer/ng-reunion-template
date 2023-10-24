@@ -7,6 +7,7 @@ import { MatInputModule } from "@angular/material/input";
 import { MatListModule } from "@angular/material/list";
 import { MatGridListModule } from "@angular/material/grid-list";
 import { MatMenuModule } from "@angular/material/menu";
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [],
@@ -19,10 +20,9 @@ import { MatMenuModule } from "@angular/material/menu";
     MatListModule,
     MatGridListModule,
     MatMenuModule,
+    MatSidenavModule,
   ],
   exports: [
-    // components
-    // modules
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
@@ -31,6 +31,7 @@ import { MatMenuModule } from "@angular/material/menu";
     MatListModule,
     MatGridListModule,
     MatMenuModule,
+    MatSidenavModule,
   ]
 })
-export class SharedModule { }
+export class MatSharedModule { }

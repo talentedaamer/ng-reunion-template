@@ -21,9 +21,9 @@ export class SidebarComponent implements OnInit {
       title: true,
     },
     {
-      name: 'Components',
+      name: 'Dashboard',
       link: '/',
-      icon: 'folder'
+      icon: 'dashboard'
     },
     {
       name: 'Components',

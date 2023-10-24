@@ -9,8 +9,13 @@
 
 .ru-sidenav-warp {
   .mat-nav-list {
+    padding: 0;
     a {
-      height: 40px;
+      height: 38px;
+
+      &.active-sidenav-link {
+        background-color: #FFEBEE;
+      }
     }
   }
 }

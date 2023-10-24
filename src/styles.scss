@@ -7,12 +7,53 @@ html {
 html, body {
   height: 100%;
 }
+body,
+.mat-body,
+.mat-typography,
+.mat-typography .mat-body {
+  font: 400 14px/20px Ubuntu, sans-serif;
+}
 
+.mat-h1,
+.mat-headline,
+.mat-typography .mat-h1,
+.mat-typography .mat-headline,
+.mat-typography h1 {
+  font: 400 24px/32px Ubuntu, sans-serif;
+}
+.mat-h2,
+.mat-title,
+.mat-typography .mat-h2,
+.mat-typography .mat-title,
+.mat-typography h2 {
+  font: 500 20px/32px Ubuntu, sans-serif;
+}
+.mat-h3,
+.mat-subheading-2,
+.mat-typography .mat-h3,
+.mat-typography .mat-subheading-2,
+.mat-typography h3 {
+  font: 500 20px/32px Ubuntu, sans-serif;
+}
+.mat-h4,
+.mat-subheading-1,
+.mat-typography .mat-h4,
+.mat-typography .mat-subheading-1,
+.mat-typography h4 {
+  font: 500 15px/24px Ubuntu, sans-serif;
+}
+.mat-h5,
+.mat-typography .mat-h5,
+.mat-typography h5 {
+  font: 400 calc(14px * 0.83)/20px Ubuntu, sans-serif;
+}
+.mat-h6,
+.mat-typography .mat-h6,
+.mat-typography h6 {
+  font: 400 calc(14px * 0.67)/20px Ubuntu, sans-serif;
+}
 body {
-  ffont-family: 'Ubuntu', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.2;
   margin: 0;
 }
 

@@ -1,0 +1,22 @@
+:root {
+    --box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.125);
+    --card-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.075),var(--box-shadow)
+}
+
+.ru-card {
+    background-color: #fff;
+    color: #666;
+    box-shadow: var(--card-box-shadow);
+    margin-bottom: 1rem;
+}
+.ru-card-header {
+    margin-bottom: 1rem;
+}
+.ru-card-header h1 {
+    color: #222;
+    margin: 0;
+    font-size: 20px;
+}
+.ru-card-header h3 {
+    margin: 0;
+}

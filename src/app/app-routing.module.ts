@@ -5,7 +5,7 @@ import { LayoutAdminComponent } from './layouts/layout-admin/layout-admin.compon
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'dashboard',
+    redirectTo: 'page-dashboard',
     pathMatch: 'full',
   },
   {

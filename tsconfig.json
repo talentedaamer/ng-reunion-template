@@ -16,6 +16,16 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "ru-components": [
+        "dist/ru-components/ru-components",
+        "dist/ru-components"
+      ],
+      "ru-grids": [
+        "dist/ru-grids/ru-grids",
+        "dist/ru-grids"
+      ]
+    },
     "target": "es2017",
     "module": "es2020",
     "lib": [
