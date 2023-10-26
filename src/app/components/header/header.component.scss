@@ -1,5 +1,20 @@
-:host .mat-toolbar {
+:host .ru-header {
   height: 48px;
+  background: #fff;
+  border-bottom: var(--border-default);
+  display: flex;
+}
+.ru-toolbar-wrap {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 16px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
 }
 .ru-spacer {
   flex: 1 1 auto;

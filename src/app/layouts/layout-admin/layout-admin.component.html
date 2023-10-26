@@ -3,8 +3,9 @@
     <app-sidebar></app-sidebar>
   </mat-drawer>
 
+  <app-header [sidenav]="sidenav"></app-header>
+
   <div class="ru-drawer-content">
-    <app-header [sidenav]="sidenav"></app-header>
     <div class="ru-content-wrap">
       <router-outlet></router-outlet>
     </div>

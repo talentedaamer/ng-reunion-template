@@ -1,16 +1,12 @@
 import { NgModule } from '@angular/core';
-import { RuGridsComponent } from './ru-grids.component';
-
-
+import { RuRowDirective } from './directives/ru-row.directive';
 
 @NgModule({
   declarations: [
-    RuGridsComponent
-  ],
-  imports: [
+    RuRowDirective,
   ],
   exports: [
-    RuGridsComponent
+    RuRowDirective,
   ]
 })
 export class RuGridsModule { }

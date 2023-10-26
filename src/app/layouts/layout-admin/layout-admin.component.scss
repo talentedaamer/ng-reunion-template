@@ -2,11 +2,12 @@
   height: 100%;
 }
 .ru-drawer-sidenav {
-  //background: #03254e;
   width: 250px;
-  border-right: none;
-  -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
-  box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+  border-right: var(--border-default);
+}
+.ru-drawer-content {
+  max-width: 1024px;
+  margin: 0 auto;
 }
 .ru-content-wrap {
   padding: 1.5rem;
